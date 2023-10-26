@@ -1,6 +1,5 @@
 package I_Principle;
 
-
 // Square is a 2DShape with all four equal sides
 //contains a constructor, getter, and calculatePerimeter methods
 public class Square implements Shape2D{
