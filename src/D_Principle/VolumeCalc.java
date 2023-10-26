@@ -6,7 +6,7 @@ package D_Principle;
 public class VolumeCalc implements IVolumeCalc{
 	
 	//calculates and returns the volume of a 3D Shape
-	double volume (Shape3D shape) {
+	public double volume (Shape3D shape) {
 		return shape.calculateVolume();
 	}
 }
