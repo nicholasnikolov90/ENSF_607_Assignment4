@@ -1,6 +1,7 @@
-package O_Principle;
+package I_Principle;
 
 //Rectangle is a 2D shape that has two different side lengths. 
+//contains a constructor, getter, and calculateArea methods
 
 public class Rectangle implements Shape2D{
 	public double sideA; //short side of rectangle

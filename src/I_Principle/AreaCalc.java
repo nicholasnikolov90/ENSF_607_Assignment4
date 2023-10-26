@@ -1,4 +1,4 @@
-package O_Principle;
+package I_Principle;
 
 //AreaCalc is a method which calculates the area of a shape.
 

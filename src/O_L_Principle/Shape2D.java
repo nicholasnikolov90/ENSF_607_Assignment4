@@ -1,4 +1,4 @@
-package O_Principle;
+package O_L_Principle;
 //Open for extension, but closed for modification
 //The calculateArea method can be called to calculate the area of any shape.
 //calculateArea is implemented by rectangle and square in this example
