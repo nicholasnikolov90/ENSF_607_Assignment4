@@ -2,7 +2,7 @@ package O_L_Principle;
 
 
 // Square is a 2DShape with all four equal sides
-//contains a constructor, getter, and calculateArea methods
+//contains a constructor, getter, and calculatePerimeter methods
 public class Square implements Shape2D{
 	public double side; //side length of the square
 	
@@ -16,10 +16,10 @@ public class Square implements Shape2D{
 		return side;
 	}
 	
-	//calculates and returns the area of a square
+	//calculates and returns the perimeter of a square
 	@Override
-	public double calculateArea() {
-		return getSide() * getSide();
+	public double calculatePerimeter() {
+		return getSide() * 4.0;
 	}
 
 }

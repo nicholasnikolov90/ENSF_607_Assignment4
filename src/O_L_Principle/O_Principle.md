@@ -1,11 +1,11 @@
 @startuml
 
 interface Shape2D{
-+calculateArea(): double
++calculatePerimeter(): double
 }
 
-class AreaCalc{
-+ area(shape: 2DShape): double
+class PerimeterCalc{
++ perimeter(shape: 2DShape): double
 }
 
 class Rectangle{
@@ -13,9 +13,7 @@ class Rectangle{
 + Rectangle(sideA: double, sideB: double)
 + getSideA(): double
 + getSideB(): double
-+ calculateArea(): double
-
-
++ calculatePerimeter(): double
 }
 
 
@@ -23,7 +21,7 @@ class Square{
 
 + Square(w: double)
 + getSide(): double
-+ calculateArea(): double
++ calculatePerimeter(): double
 }
 
 class Main{
@@ -31,8 +29,7 @@ class Main{
 }
 
 
-
-Main *-- AreaCalc: 1
+Main *-- PerimeterCalc: 1
 Main *-- Square: 1
 Main *-- Rectangle: 1
 

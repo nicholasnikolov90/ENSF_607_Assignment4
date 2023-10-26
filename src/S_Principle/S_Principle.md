@@ -1,7 +1,7 @@
 @startuml
 
-class AreaCalc{
-+ area(square: Square): double
+class PerimeterCalc{
++ perimeter(square: Square): double
 }
 
 
@@ -17,6 +17,6 @@ class Main{
 }
 
 
-Main *-- AreaCalc: 1
+Main *-- PerimeterCalc: 1
 Main *-- Square: 1
 @enduml

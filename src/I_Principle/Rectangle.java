@@ -1,7 +1,7 @@
 package I_Principle;
 
 //Rectangle is a 2D shape that has two different side lengths. 
-//contains a constructor, getter, and calculateArea methods
+//contains a constructor, getter, and calculatePerimeter methods
 
 public class Rectangle implements Shape2D{
 	public double sideA; //short side of rectangle
@@ -23,10 +23,10 @@ public class Rectangle implements Shape2D{
 		return sideB;
 	}
 	
-	//Calculates and returns the area of a rectangle
+	//Calculates and returns the perimeter of a rectangle
 	@Override
-	public double calculateArea() {
-		return getSideA() * getSideB();
+	public double calculatePerimeter() {
+		return getSideA() * 2.0 + 2.0 * getSideB();
 	}
 
 }
