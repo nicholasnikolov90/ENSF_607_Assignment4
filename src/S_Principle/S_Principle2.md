@@ -1,11 +1,12 @@
 @startuml
 
 class Registration{
++athletes: <List> String
 + registration(athlete: Athlete): List<String>
 }
 
 class Athlete{
-
++name: String
 + Athlete(name: String)
 + getName(): String
 }

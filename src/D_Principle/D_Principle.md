@@ -10,7 +10,8 @@ class VolumeCalc{
 }
 
 class Sphere{
-+ Square(w: double)
++radius: double
++ Sphere(r: double)
 + getRadius(): double
 + volume(): double
 }

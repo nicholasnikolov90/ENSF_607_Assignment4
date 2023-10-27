@@ -9,6 +9,8 @@ interface Shape2D{
 }
 
 class Rectangle{
++sideA: double
++sideB: double
 + Rectangle(sideA: double, sideB: double)
 + getSideA(): double
 + getSideB(): double
@@ -17,13 +19,15 @@ class Rectangle{
 
 
 class Square{
++side: double
 + Square(w: double)
 + getSide(): double
 + calculatePerimeter(): double
 }
 
 class Sphere{
-+ Square(w: double)
++radius: double
++ Sphere(r: double)
 + getRadius(): double
 + calculateVolume(): double
 }

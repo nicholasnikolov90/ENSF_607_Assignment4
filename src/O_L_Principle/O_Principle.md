@@ -1,10 +1,12 @@
 @startuml
 
 abstract Shape2D{
-+calculatePerimeter(): double
++{abstract}calculatePerimeter(): double
 }
 
 class Rectangle{
++sideA: double
++sideB: double
 + Rectangle(sideA: double, sideB: double)
 + getSideA(): double
 + getSideB(): double
@@ -12,6 +14,7 @@ class Rectangle{
 }
 
 class Square{
++side: double
 + Square(w: double)
 + getSide(): double
 + calculatePerimeter(): double
