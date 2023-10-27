@@ -3,7 +3,7 @@ package O_L_Principle;
 
 // Square is a 2DShape with all four equal sides
 //contains a constructor, getter, and calculatePerimeter methods
-public class Square implements Shape2D{
+public class Square extends Shape2D{
 	public double side; //side length of the square
 	
 	//constructor to set the length of the sdie of a square

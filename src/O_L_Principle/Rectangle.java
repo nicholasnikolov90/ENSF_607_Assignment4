@@ -3,7 +3,7 @@ package O_L_Principle;
 //Rectangle is a 2D shape that has two different side lengths. 
 //contains a constructor, getter, and calculatePerimeter methods
 
-public class Rectangle implements Shape2D{
+public class Rectangle extends Shape2D{
 	public double sideA; //short side of rectangle
 	public double sideB; //long side of rectangle
 	

@@ -1,10 +1,13 @@
 package D_Principle;
 
-//VolumeCalc is a method which calculates the volume of a 3D shape
-public class VolumeCalc implements IVolumeCalc{
+//VolumeCalc is a class used to calculate the volume of a shape.
+public class VolumeCalc{
+	
+	//initialize an IVolumeCalc instance to create dependency
+	private final IVolumeCalc volumeCalc = null;
 	
 	//calculates and returns the volume of a 3D Shape
-	public double volume (Shape3D shape) {
-		return shape.calculateVolume();
+	public double volume () {
+		return volumeCalc.volume();
 	}
 }
